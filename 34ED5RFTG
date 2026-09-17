@@ -49,8 +49,8 @@ local invisSeat = nil
 -- Create Main GUI
 local function createGUI()
     -- Cleanup old GUI if exists
-    if CoreGui:FindFirstChild("VexelUltimateHax") then
-        CoreGui:FindFirstChild("VexelUltimateHax"):Destroy()
+    if CoreGui:FindFirstChild("Waseemo3mk") then
+        CoreGui:FindFirstChild("Waseemo3mk"):Destroy()
     end
 
     -- Main GUI
@@ -95,7 +95,7 @@ local function createGUI()
     Title.Position = UDim2.new(0, 0, 0, 10)
     Title.Size = UDim2.new(1, 0, 0, 40)
     Title.Font = Enum.Font.GothamBold
-    Title.Text = "VEXEL ULTIMATE"
+    Title.Text = "WASEEMO 3MK"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 20
 
@@ -799,7 +799,7 @@ initializeCharacter()
 
 -- Initial Notification
 game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "VEXEL ULTIMATE",
+    Title = "WASEEMO 3MK",
     Text = "Loaded successfully!",
     Duration = 5,
     Icon = "rbxassetid://505845268"
